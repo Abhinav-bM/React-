@@ -16,6 +16,10 @@ class List extends Component {
     ],
   };
 
+  componentDidMount() {
+    alert()
+  }
+
   render() {
     return (
       <div>
